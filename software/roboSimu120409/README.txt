@@ -16,10 +16,10 @@
 出村公成
 
 **ビルド・実行法**  
-Windows環境　 Code::Blocks http://demura.net/9ode/3850.html  
-Windows環境　 MSYS+MinGW http://demura.net/9ode/543.html
-Windows環境 　Visual C++ 2008 http://demura.net/9ode/538.html
-Linux環境　Code::Block http://demura.net/9ode/575.html
+[Windows環境　 Code::Blocks](http://demura.net/9ode/3850.html)  
+[Windows環境　 MSYS+MinGW](http://demura.net/9ode/543.html)
+[Windows環境 　Visual C++ 2008](http://demura.net/9ode/538.html)
+[Linux環境　Code::Block](http://demura.net/9ode/575.html)
 
 更新ログ
 2012-04-09: ODE0.12用にpremake.luaとroboSimu.luaを変更
