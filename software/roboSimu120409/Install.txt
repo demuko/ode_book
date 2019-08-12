@@ -1,0 +1,54 @@
+Premake-based Windows Build System
+ODE 0.12用．ただし，premakeはpremake4ではなくODE 0.10.0付属のpremake (by Jason Perkins)をODE本のサンプルプログラムコンパイル用に変更した．
+
+Kosei Demura (http://demura.net) 2008-7-8
+
+使い方
+
+1. Code::Blocks
+   コマンドプロンプト等で以下のコマンドを実行する．
+
+   premake --target cb-gcc
+
+
+2. Visual C++ 2008 ExpressEdition
+
+   premake --target vs2008
+
+
+3. MinGW
+
+   premake --target gnu
+
+4. ソリューション，ワークスペース，makeファイルはsrcの中にできるので，それらを使いビルドまたはコンパイルしてください．
+
+以上
+
+-------------------------
+
+Premake-based Windows Build System
+
+I changed a little bit the premake system (by Jason Perkins) with ODE0.10.0.
+
+How to Install
+
+Usage
+
+
+1. Code::Blocks
+   
+   premake --target cb-gcc
+
+
+2. Visual C++ 2008 ExpressEdition
+
+   premake --target vs2008
+
+
+3. MinGW
+
+   premake --target gnu
+
+4. Please use a workspace file, a solution file, or a make file in the src directory to build sample programs.
+
+----------------------------
