@@ -1,38 +1,44 @@
-�����̃T���v���v���O�����͈ȉ��̏��Зp�ł��D
+これらのサンプルプログラムは以下の書籍用です．
 
-�ȒP�I���H�I���{�b�g�V�~�����[�V���� - Open Dynamics Engine�ɂ�郍�{�b�g�v���O���~���O-
-�o��������, �X�k�o�� (2007)
-�T�|�[�g�T�C�g http://demura.net/
+簡単！実践！ロボットシミュレーション - Open Dynamics Engineによるロボットプログラミング-
+出村公成著, 森北出版 (2007)
+サポートサイト http://demura.net/
 
-�{�T���v���v���O�����̃r���h�C�R���p�C�����тɎ��s�͎��ȐӔC�ōs���Ă��������D���ɁC�{����
-���{�b�g�ɓK�p���邽�߂̈��S���Ȃǂ�S���l�����Ă��܂���̂ŁC���̂悤�ȗp�r�ɂ͌����܂���D
-�܂��C����ړI�̃V�~�����[�^�ł��邽�߁C���x��K�v�Ƃ���悤�Ȍ����̗p�r�ɂ������܂���D
-�����܂ŁC����ړI�Ƃ��l�����������D���ҋy�ѐX�k�o�ł͖{�v���O�����ɂ���Đ�����������
-���ʂɂ��Ă̐ӔC�𕉂����˂܂��D�ȏ�̓_�����������������������̃T���v���v���O������
-���g�����������D�܂��\���Ƀe�X�g������Ă��Ȃ��̂ōĔz�z�͂��~�߂��������D
+本サンプルプログラムのビルド，コンパイル並びに実行は自己責任で行ってください．特に，本物の
+ロボットに適用するための安全性などを全く考慮していませんので，そのような用途には向きません．
+また，教育目的のシミュレータであるため，精度を必要とするような研究の用途にも向きません．
+あくまで，教育目的とお考えください．著者及び森北出版は本プログラムによって生じたあらゆる
+結果についての責任を負いかねます．以上の点をご了承した方だけこれらのサンプルプログラムを
+お使いください．まだ十分にテストしきれていないので再配布はお止めください．
 
-2008�N7��22��
+2008年7月22日
 
-�o������
+出村公成
 
-�X�V���O
-2012-04-09: ODE0.12�p��premake.lua��roboSimu.lua��ύX
-2009-06-14: Visual C++�Ŕ�������Warning, Error���C���DODE0.11�̃f���v���O�����ɍ��킹��texturepath.h���C���N���[�h����悤�\�[�X�R�[�h�ɒǉ��D
-2008-08-28: omni.cpp��sqrt()�̈�����2����2.0�ɕύX�@(Yasu����w�E�j
-2008-08-21: ODE0.10.0��OPCODE�̐V�����Փˌ��o�֐��ł̓G���[���ł�̂Ń��{�b�g�f�U�C����ύX�����D
-�@�@�@�@�@�@�@�@�@ pk.cpp��makeBase2(), drawBase2()�̕ύX
-            omni.cpp��225,226�s��drawCircle()��pos1,pos2�̎����C���@�iLW����w�E�j
-2008-07-22: wheel2.cpp��83�s��dMassSetCapsuleTotal()��3�Ԗڈ������J�v�Z�����������ł���3�ɒ���
-2008-07-07: ODE0.10.0����r���h�C�R���p�C�����@���ύX�ɂȂ�C����ɑΉ������D�����ɁC2007�N5��19�����獡�܂Ōʂɔz�z���Ă���ODE�{�̃T���v���v���O�������P�̃p�b�P�[�W�Ƃ��Ă܂Ƃ߂��D
-�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@
-�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@�@
+**ビルド・実行法**  
+Windows環境　 Code::Blocks http://demura.net/9ode/3850.html  
+Windows環境　 MSYS+MinGW http://demura.net/9ode/543.html
+Windows環境 　Visual C++ 2008 http://demura.net/9ode/538.html
+Linux環境　Code::Block http://demura.net/9ode/575.html
+
+更新ログ
+2012-04-09: ODE0.12用にpremake.luaとroboSimu.luaを変更
+2009-06-14: Visual C++で発生するWarning, Errorを修正．ODE0.11のデモプログラムに合わせてtexturepath.hをインクルードするようソースコードに追加．
+2008-08-28: omni.cppのsqrt()の引数を2から2.0に変更　(Yasuさん指摘）
+2008-08-21: ODE0.10.0のOPCODEの新しい衝突検出関数ではエラーがでるのでロボットデザインを変更した．
+　　　　　　　　　 pk.cppのmakeBase2(), drawBase2()の変更
+            omni.cppの225,226行目drawCircle()のpos1,pos2の式を修正　（LWさん指摘）
+2008-07-22: wheel2.cppの83行目dMassSetCapsuleTotal()の3番目引数をカプセル長軸方向である3に訂正
+2008-07-07: ODE0.10.0からビルド，コンパイル方法が変更になり，それに対応した．同時に，2007年5月19日から今まで個別に配布していたODE本のサンプルプログラムを１つのパッケージとしてまとめた．
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 -------------------
 
 /*** Robot Simulation Sample Programs by Kosei Demura ***/
 These sample programs are for the following my book. 
 
-�gRobot Simulation - Robot programming with Open Dynamics Engine , 
-(260pages, ISBN:978-4627846913, Morikita Publishing Co. Ltd., Tokyo, 2007)�h 
+“Robot Simulation - Robot programming with Open Dynamics Engine , 
+(260pages, ISBN:978-4627846913, Morikita Publishing Co. Ltd., Tokyo, 2007)” 
 by Kosei Demura, which is written in Japanese (Sorry).
 
 URL is http://demura.net/simulation.
