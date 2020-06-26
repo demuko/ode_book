@@ -13,25 +13,25 @@
  
 出村公成 
 
-###ビルド・実行法 
-[Linux環境   Configure]  (https://demura.net/education/18243.html)
+### ビルド・実行法  
+[Linux環境   Configure]  (https://demura.net/education/18243.html) 
 
 更新ログ
-2020-06-26: ODE0.16.1用でサンプルプログラムをコンパイルするためにMakefileを追加
-2012-04-09: ODE0.12用にpremake.luaとroboSimu.luaを変更
-2009-06-14: Visual C++で発生するWarning, Errorを修正．ODE0.11のデモプログラムに合わせてtexturepath.hをインクルードするようソースコードに追加．
-2008-08-28: omni.cppのsqrt()の引数を2から2.0に変更　(Yasuさん指摘）
-2008-08-21: ODE0.10.0のOPCODEの新しい衝突検出関数ではエラーがでるのでロボットデザインを変更した．
-　　　　　　　　　 pk.cppのmakeBase2(), drawBase2()の変更
-            omni.cppの225,226行目drawCircle()のpos1,pos2の式を修正　（LWさん指摘）
-2008-07-22: wheel2.cppの83行目dMassSetCapsuleTotal()の3番目引数をカプセル長軸方向である3に訂正
-2008-07-07: ODE0.10.0からビルド，コンパイル方法が変更になり，それに対応した．同時に，2007年5月19日から今まで個別に配布していたODE本のサンプルプログラムを１つのパッケージとしてまとめた．
+2020-06-26: ODE0.16.1用でサンプルプログラムをコンパイルするためにMakefileを追加 
+2012-04-09: ODE0.12用にpremake.luaとroboSimu.luaを変更 
+2009-06-14: Visual C++で発生するWarning, Errorを修正．ODE0.11のデモプログラムに合わせてtexturepath.hをインクルードするようソースコードに追加．  
+2008-08-28: omni.cppのsqrt()の引数を2から2.0に変更　(Yasuさん指摘） 
+2008-08-21: ODE0.10.0のOPCODEの新しい衝突検出関数ではエラーがでるのでロボットデザインを変更した． 
+　　　　　　　　　 pk.cppのmakeBase2(), drawBase2()の変更 
+            omni.cppの225,226行目drawCircle()のpos1,pos2の式を修正　（LWさん指摘） 
+2008-07-22: wheel2.cppの83行目dMassSetCapsuleTotal()の3番目引数をカプセル長軸方向である3に訂正 
+2008-07-07: ODE0.10.0からビルド，コンパイル方法が変更になり，それに対応した．同時に，2007年5月19日から今まで個別に配布していたODE本のサンプルプログラムを１つのパッケージとしてまとめた． 
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 -------------------
 
-/*** Robot Simulation Sample Programs by Kosei Demura ***/
-These sample programs are for the following my book. 
+## Robot Simulation Sample Programs by Kosei Demura  
+These sample programs are for the following my book.  
 
 “Robot Simulation - Robot programming with Open Dynamics Engine , 
 (260pages, ISBN:978-4627846913, Morikita Publishing Co. Ltd., Tokyo, 2007)” 
