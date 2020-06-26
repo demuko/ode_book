@@ -1,0 +1,33 @@
+# Install.txt
+Kosei Demura (https://demura.net) 2020-6-25
+
+# インストール法
+
+1. Linux
+
+- ODEのソースコードのインストールディレクトリ/ode-0.16.1/odeにrobosimuをコピーする。
+  $ cd ode_src_path/odeo0.16.1/ode
+  $ cp -r ~/Downloads/src/ode_book/robosimu   .
+  $ cd robosimu
+
+- コンパイルする。
+  $ make
+
+
+以上
+
+-------------------------
+# Install method
+
+1. Linux
+   
+- Copy the robosimu director to ode_src_path/odeo0.16.1/ode
+  $ cd ode_src_path/odeo0.16.1/ode
+  $ cp -r ~/Downloads/src/ode_book/robosimu   .
+  $ cd robosimu
+
+- Comple the source codes
+  $ make
+
+
+----------------------------
