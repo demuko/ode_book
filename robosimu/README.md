@@ -16,7 +16,7 @@
 ### ビルド・実行法  
 [Linux環境   Configure]  (https://demura.net/education/18243.html) 
 
-更新ログ
+### 更新ログ 
 2020-06-26: ODE0.16.1用でサンプルプログラムをコンパイルするためにMakefileを追加 
 2012-04-09: ODE0.12用にpremake.luaとroboSimu.luaを変更 
 2009-06-14: Visual C++で発生するWarning, Errorを修正．ODE0.11のデモプログラムに合わせてtexturepath.hをインクルードするようソースコードに追加．  
@@ -30,7 +30,7 @@
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 -------------------
 
-## Robot Simulation Sample Programs by Kosei Demura  
+# Robot Simulation Sample Programs by Kosei Demura  
 These sample programs are for the following my book.  
 
 “Robot Simulation - Robot programming with Open Dynamics Engine , 
@@ -50,7 +50,7 @@ Please do not redistribute these programs, it seems there are some bugs.
 Anyway, enjoy my sample programs and the world of Open Dynamics Engine.
 
 
-2008-10-03
+2008-10-03 (Modified 2020-06-25)
 
 Kosei Demura
 
